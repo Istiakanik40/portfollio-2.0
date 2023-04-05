@@ -1,0 +1,132 @@
+.custom_nav_brand{
+  font-family: "Bell MT";
+  font-size: 30px;
+  color: coral;
+  text-decoration: none;
+}
+
+.navbar_right{
+  padding-left: 40%;
+  li{
+    padding-right: 25px;
+    font-family: Cambria;
+    font-size: 20px;
+    a{
+      color: lightcoral;
+      text-decoration: none;
+    }
+    a:active,a:link{
+      color: #5a6268;
+      padding: 10px;
+      text-decoration: none;
+    }
+    a:hover,a:disabled{
+      color: #1e7e34;
+      padding: 10px;
+    }
+  }
+}
+
+.main_img{
+  background: url("../img/WhatsApp Image 2023-01-01 at 23.42.11.jpg");
+  height: 700px;
+  width: 100%;
+  font-family: "Bauhaus 93";
+  text-align: center;
+  .overlay_text{
+    padding-top: 10%;
+    h1{
+      color: $heading;
+      word-spacing: 12px;
+    }
+    h3{
+      color: #28a745;
+      word-spacing: 8px;
+    }
+    small{
+      font-style: italic;
+      font-family: Arial;
+      word-spacing: 5px;
+    }
+  }
+}
+
+.my_about{
+  padding-top: 10%;
+  img{
+    height: auto;
+    max-width: 100%;
+  }
+  .about{
+    font-family: "Bell MT";
+    h1{
+      color: #5a6268;
+      font-size: 30px;
+    }
+  }
+}
+
+.icon_section{
+  div{
+    display: inline;
+    padding: 10px;
+    i{
+      font-size: 2.1rem;
+    }
+  }
+}
+
+.heading{
+  font-family: "Bodoni MT Black";
+  font-size: 20px;
+  padding: 20% 30% 20% 30%;
+}
+
+.progress-bar{
+  width: 100%;
+}
+
+.custom_progressbar{
+  padding: 5% 5% 5% 5%;
+}
+
+.my_service{
+  text-align: center;
+  margin-bottom: 20px;
+  h1{
+    font-family: Arial;
+    font-size: 30px;
+  }
+  small{
+    font-family: "Bell MT";
+    font-size: 14px;
+    word-spacing: 8px;
+  }
+}
+.card_ecommerce{
+  border: 1px solid gray;
+  padding: 5%;
+  margin-bottom: 20px;
+
+  i{
+    font-size: 2.5rem;
+    padding-left: 47%;
+  }
+  h3{
+    text-align: center;
+    font-family: "Arial Narrow";
+  }
+  p{
+    text-align: center;
+  }
+}
+
+.my_place{
+  text-align: center;
+  padding: 30px;
+  h3{
+    font-family: "Book Antiqua";
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+}
