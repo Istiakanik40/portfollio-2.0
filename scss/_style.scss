@@ -40,7 +40,7 @@
       word-spacing: 12px;
     }
     h3{
-      color: #28a745;
+      color: $heading;
       word-spacing: 8px;
     }
     small{
@@ -93,6 +93,7 @@
 .my_service{
   text-align: center;
   margin-bottom: 20px;
+  margin-top: 30px;
   h1{
     font-family: Arial;
     font-size: 30px;
@@ -130,13 +131,57 @@
     margin-bottom: 20px;
   }
 }
-
+.cards{
+  margin-bottom: 20px;
+}
 .card_one{
-  font-family: Algerian;
-  color: gray;
+  padding: 10px;
   text-align: center;
-  .smart_phn{
+.smart_phn{
+  font-size: 2.5rem;
+  margin-left: 5%;
+  color:#d40c63;
+}
+}
+
+.card_two{
+  padding: 10px;
+  text-align: center;
+  .email-add{
     font-size: 2.5rem;
-    margin-left: 50%;
+    margin-left: 5%;
+    color:#d40c63;
+  }
+}
+
+.card_three{
+  padding: 10px;
+  text-align: center;
+  .location-add{
+    font-size: 2.5rem;
+    margin-left: 5%;
+    color:#d40c63;
+  }
+}
+.custom_footer{
+  background-color: #1e2125;
+  padding: 3%;
+  text-align: center;
+  .icons{
+    margin-bottom: 20px;
+    div{
+      display: inline;
+      padding: 5px;
+      i{
+        font-size: 1.3rem;
+        color: #0a58ca;
+      }
+    }
+  }
+  .copyright{
+    p{
+      border-top: 1px solid gray;
+      color: #d40c63;
+    }
   }
 }

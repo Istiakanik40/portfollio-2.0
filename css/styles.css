@@ -1,105 +1,58 @@
-.custom_nav_brand {
-  font-family: "Bell MT";
-  font-size: 30px;
-  color: coral;
-  text-decoration: none; }
+.custom_nav_brand { font-family: "Bell MT"; font-size: 30px; color: coral; text-decoration: none; }
 
-.navbar_right {
-  padding-left: 40%; }
-.navbar_right li {
-  padding-right: 25px;
-  font-family: Cambria;
-  font-size: 20px; }
-.navbar_right li a {
-  color: lightcoral;
-  text-decoration: none; }
-.navbar_right li a:active, .navbar_right li a:link {
-  color: #5a6268;
-  padding: 10px;
-  text-decoration: none; }
-.navbar_right li a:hover, .navbar_right li a:disabled {
-  color: #1e7e34;
-  padding: 10px; }
+.navbar_right { padding-left: 40%; }
+.navbar_right li { padding-right: 25px; font-family: Cambria; font-size: 20px; }
+.navbar_right li a { color: lightcoral; text-decoration: none; }
+.navbar_right li a:active, .navbar_right li a:link { color: #5a6268; padding: 10px; text-decoration: none; }
+.navbar_right li a:hover, .navbar_right li a:disabled { color: #1e7e34; padding: 10px; }
 
-.main_img {
-  background: url("../img/LR-2022-01December 26, 2022.jpg");
-  background-repeat: no-repeat;
-  height: 700px;
-  max-width: 100%;
-  font-family: "Bauhaus 93";
-  text-align: center; }
-.main_img .overlay_text {
-  padding-top: 10%; }
-.main_img .overlay_text h1 {
-  color: #ee8383;
-  word-spacing: 12px; }
-.main_img .overlay_text h3 {
-  color: #28a745;
-  word-spacing: 8px; }
-.main_img .overlay_text small {
-  font-style: italic;
-  font-family: Arial;
-  word-spacing: 5px; }
+.main_img { background: url("../img/WhatsApp Image 2023-01-01 at 23.42.11.jpg"); height: 700px; width: 100%; font-family: "Bauhaus 93"; text-align: center; }
+.main_img .overlay_text { padding-top: 10%; }
+.main_img .overlay_text h1 { color: #16f8c3; word-spacing: 12px; }
+.main_img .overlay_text h3 { color: #16f8c3; word-spacing: 8px; }
+.main_img .overlay_text small { font-style: italic; font-family: Arial; word-spacing: 5px; }
 
-.my_about {
-  padding-top: 10%; }
-.my_about img {
-  height: auto;
-  max-width: 100%; }
-.my_about .about {
-  font-family: "Bell MT"; }
-.my_about .about h1 {
-  color: #5a6268;
-  font-size: 30px; }
+.my_about { padding-top: 10%; }
+.my_about img { height: auto; max-width: 100%; }
+.my_about .about { font-family: "Bell MT"; }
+.my_about .about h1 { color: #5a6268; font-size: 30px; }
 
-.icon_section div {
-  display: inline;
-  padding: 10px; }
-.icon_section div i {
-  font-size: 2.1rem; }
+.icon_section div { display: inline; padding: 10px; }
+.icon_section div i { font-size: 2.1rem; }
 
-.heading {
-  font-family: "Bodoni MT Black";
-  font-size: 20px;
-  padding: 20% 30% 20% 30%; }
+.heading { font-family: "Bodoni MT Black"; font-size: 20px; padding: 20% 30% 20% 30%; }
 
-.progress-bar {
-  width: 100%; }
+.progress-bar { width: 100%; }
 
-.custom_progressbar {
-  padding: 5% 5% 5% 5%; }
+.custom_progressbar { padding: 5% 5% 5% 5%; }
 
-.my_service {
-  text-align: center;
-  margin-bottom: 20px;
-  margin-top: 20px; }
-.my_service h1 {
-  font-family: Arial;
-  font-size: 30px; }
-.my_service small {
-  font-family: "Bell MT";
-  font-size: 14px;
-  word-spacing: 8px; }
+.my_service { text-align: center; margin-bottom: 20px; margin-top: 30px; }
+.my_service h1 { font-family: Arial; font-size: 30px; }
+.my_service small { font-family: "Bell MT"; font-size: 14px; word-spacing: 8px; }
 
-.card_ecommerce {
-  border: 1px solid gray;
-  padding: 5%;
-  margin-bottom: 20px; }
-.card_ecommerce i {
-  font-size: 2.5rem;
-  padding-left: 47%; }
-.card_ecommerce h3 {
-  text-align: center;
-  font-family: "Arial Narrow"; }
-.card_ecommerce p {
-  text-align: center; }
+.card_ecommerce { border: 1px solid gray; padding: 5%; margin-bottom: 20px; }
+.card_ecommerce i { font-size: 2.5rem; padding-left: 47%; }
+.card_ecommerce h3 { text-align: center; font-family: "Arial Narrow"; }
+.card_ecommerce p { text-align: center; }
 
-.my_place {
-  text-align: center;
-  padding: 30px; }
-.my_place h3 {
-  font-family: "Book Antiqua";
-  font-size: 20px;
-  margin-bottom: 20px; }
+.my_place { text-align: center; padding: 30px; }
+.my_place h3 { font-family: "Book Antiqua"; font-size: 20px; margin-bottom: 20px; }
+
+.cards { margin-bottom: 20px; }
+
+.card_one { padding: 10px; text-align: center; }
+.card_one .smart_phn { font-size: 2.5rem; margin-left: 5%; color: #d40c63; }
+
+.card_two { padding: 10px; text-align: center; }
+.card_two .email-add { font-size: 2.5rem; margin-left: 5%; color: #d40c63; }
+
+.card_three { padding: 10px; text-align: center; }
+.card_three .location-add { font-size: 2.5rem; margin-left: 5%; color: #d40c63; }
+
+.custom_footer { background-color: #1e2125; padding: 3%; text-align: center; }
+.custom_footer .icons { margin-bottom: 20px; }
+.custom_footer .icons div { display: inline; padding: 5px; }
+.custom_footer .icons div i { font-size: 1.3rem; color: #0a58ca; }
+.custom_footer .copyright p { border-top: 1px solid gray; color: #d40c63; }
 
 /*# sourceMappingURL=styles.css.map */
