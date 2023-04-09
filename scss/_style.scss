@@ -28,10 +28,9 @@
 }
 
 .main_img{
-  background: url("../img/LR-2022-01December 26, 2022.jpg");
-  background-repeat: no-repeat;
+  background: url("../img/WhatsApp Image 2023-01-01 at 23.42.11.jpg");
   height: 700px;
-  max-width: 100%;
+  width: 100%;
   font-family: "Bauhaus 93";
   text-align: center;
   .overlay_text{
@@ -51,8 +50,6 @@
     }
   }
 }
-
-
 
 .my_about{
   padding-top: 10%;
@@ -96,7 +93,6 @@
 .my_service{
   text-align: center;
   margin-bottom: 20px;
-  margin-top: 20px;
   h1{
     font-family: Arial;
     font-size: 30px;
@@ -135,4 +131,12 @@
   }
 }
 
-
+.card_one{
+  font-family: Algerian;
+  color: gray;
+  text-align: center;
+  .smart_phn{
+    font-size: 2.5rem;
+    margin-left: 50%;
+  }
+}
