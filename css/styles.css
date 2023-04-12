@@ -38,6 +38,9 @@
 .my_place { text-align: center; padding: 30px; }
 .my_place h3 { font-family: "Book Antiqua"; font-size: 20px; margin-bottom: 20px; }
 
+.home_btn { margin-left: 90%; padding: 20px; }
+.home_btn i { font-size: 3.0rem; color: #2095bc; }
+
 .cards { margin-bottom: 20px; }
 
 .card_one { padding: 10px; text-align: center; }
